@@ -1,0 +1,49 @@
+/* .hero-input{
+    width: 500px;
+    border: 1px solid rgb(199, 199, 199);
+}
+.hero-input:focus{
+    color: black;
+    border-color: rgb(71, 63, 63);
+    outline: 0;
+    box-shadow: 3px 3px 31px -4px rgba(0,0,0,0.79);;
+}
+.text-height{
+    line-height: 18px;
+} */
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins-light";
+    src: url(Fonts/Poppins-Light.ttf);
+} {
+    
+}
+*{
+    font-family: poppins;
+}
+.hero-bg{
+    background-color: #007AFF;
+    background-image: url(Images/Mask\ group.png);
+}
+.hero-name{
+    padding-top: 30px;
+    line-height: 6px !important;
+}
+.hero-heading{
+    color: white;
+    font-size: 46px !important;
+    font-weight: 300;
+}
+.hero-text{
+    color: white;
+    font-family: poppins-light;
+}
+.hero-content{
+    font-family: poppins-light;
+    font-size: 12px !important;
+}
